@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css" />    
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="desktop-nav">
+      <a class="logo-link" href="#home"><div class="logo"><img src="https://clipart-library.com/2023/360_F_220487271_ywVxN2Jff7qIsIl4CDbPyEux8xI0tWnh.jpg" alt="logo" /></div></a>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#myskills">MY SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"><img src="https://clipart-library.com/2023/360_F_220487271_ywVxN2Jff7qIsIl4CDbPyEux8xI0tWnh.jpg" alt="logo" /></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">HOME</a></li>
+          <li><a href="#about" onclick="toggleMenu()">ABOUT</a></li>
+          <li><a href="#myskills" onclick="toggleMenu()">MY SKILLS</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">PROJECTS</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">CONTACT</a></li>
+        </div>
+      </div>
+    </nav>
+    <!-- Home -->
+    <section id="profile"> 
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="sec-title">Hemant Koli</h1>  
+        <p class="section__text__p2">MERN Stack Developer</p>
+        <p class="sec-tit">Developers using the MERN (MongoDB, Express, React, NodeJS) stack are knowledgeable in all elements of JavaScript and front- and back-end development frameworks, including NodeJS, MongoDB, and Express.
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('file:///C:/Users/ADMIN/Downloads/Hemant_Koli_Resume.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Me   
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/hemant-koli-530080203/'"
+          />
+          <img
+            src="https://icon-library.com/images/github-icon-svg/github-icon-svg-0.jpg"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Spidy-hub'"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container-about">
+          <div class="section__pic-container-about">
+            <img
+              src="photo.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="text-container-about">
+              <p>
+                A MERN stack developer is a skilled professional proficient in using the MERN 
+                (MongoDB, Express.js, React, Node.js) technology stack for web development. 
+                I specialize in building robust and dynamic web applications, leveraging MongoDB 
+                for database management, Express.js for server-side development, React for creating 
+                interactive user interfaces, and Node.js for server-side scripting. 
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- Education -->
+    <section class="container">
+      <div class="row">
+          <div class="col">
+            <div class="small-title">
+                <h2>EDUCATION</h2>
+            </div>
+            <div class="contents">
+              <div class="box">
+                <h4>2019 - 2023</h4>
+                <h3>Bachalor's of technology Degree</h3>
+                <p>I completed my B.Tech degree in the field 
+                  of Electronics and Telecommunication Engineering 
+                  (ENTC) in 2019 with 8.03 CGPA, reflecting my dedication and commitment to my studies.</p>
+              </div>
+
+              <div class="box">
+                <h4>2018 - 2019</h4>
+                <h3>Higher Secondary Education (12th)</h3>
+                <p>I completed my Higher Secondary Certificate (HSC)
+                   in 2019 in the Science stream, achieving
+                    a commendable 64.15% percentage.</p>
+              </div>
+
+              <div class="box">
+                <h4>2016 - 2017</h4>
+                <h3>Secondary Education (10th)</h3>
+                <p>I successfully completed my SSC (Secondary School Certificate) in 2017, 
+                  specializing in the science stream. I am proud to have achieved an impressive 
+                  percentage of 83.80%.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="small-title">
+                <h2>EXPERIENCE</h2>
+            </div>
+            <div class="contents">
+              <div class="box">
+                <h4>1+ Year</h4>
+                <h3>Front-end Developer</h3>
+                <p>I possess over 1+ year of valuable experience in frontend development. 
+                  During this time, I have honed my skills in creating visually appealing 
+                  and user-friendly interfaces while staying up-to-date with the latest technologies.</p>
+              </div>
+
+              <div class="box">
+                <h4>3+ Months</h4>
+                <h3>Back-end Developer</h3>
+                <p>I possess over 3+ months of valuable experience in backend development, 
+                  showcasing my proficiency in building and maintaining server-side applications.</p>
+              </div>
+
+              <div class="box">
+                <h4>1+ Month</h4>
+                <h3>MERN Stack Developer</h3>
+                <p>I possess over one year of valuable experience in backend development, 
+                  showcasing my proficiency in building and maintaining robust server-side applications.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="myskills">
+      <div class="skills_section">
+        <div class="skills_head">
+            <h2>My <span>Skills</span></h2>
+            <p>Here is my skills to represent my Expertise</p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>90%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>85%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>BootStrap</p>
+                    <P>80%</P>
+                </div>
+                <div class="bar">
+                    <span class="sass"></span>
+                </div>
+              </div>
+              <div class="skill_bar">
+                  <div class="info">
+                      <p>Java Script</p>
+                      <P>80%</P>
+                  </div>
+                  <div class="bar">
+                      <span class="js"></span>
+                  </div>
+              </div>
+              <div class="skill_bar">
+                  <div class="info">
+                      <p>React js</p>
+                      <P>80%</P>
+                  </div>
+                  <div class="bar">
+                      <span class="react"></span>
+                  </div>
+              </div>
+              <div class="skill_bar">
+                  <div class="info">
+                      <p>Node js</p>
+                      <P>85%</P>
+                  </div>
+                  <div class="bar">
+                      <span class="node"></span>
+                  </div>
+              </div>
+              <div class="skill_bar">
+                  <div class="info">
+                      <p>Express js</p>
+                      <P>80%</P>
+                  </div>
+                  <div class="bar">
+                      <span class="express"></span>
+                  </div>
+              </div>  
+              <div class="skill_bar">
+                  <div class="info">
+                      <p>Mongo DB</p>
+                      <P>90%</P>
+                  </div>
+                  <div class="bar">
+                    <span class="mongo"></span>
+                  </div>
+              </div>
+              <div class="skill_bar">
+                <div class="info">
+                    <p>Java</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+            </div>
+            <div class="skill_bar">     
+              <div class="info">
+                  <p>DSA</p>
+                  <P>70%</P>
+              </div>
+              <div class="bar">
+                  <span class="dsa"></span>
+              </div>
+          </div>
+          </div>
+      </div>
+    
+    </section>
+    <!-- Projects -->
+    <section id="projects">
+      <p class="section__text__p1">My recent works</p>
+       <h1 class="title">Projects</h1> 
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+            </div>
+            <h2 class="experience-sub-title project-title">Portfolio</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Spidy-hub/Portfolio'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://portfolio.btsheman.repl.co/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">Calender App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Spidy-hub/calender'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://calender.btsheman.repl.co/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">Calculator App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Spidy-hub/Calculator'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://calculatorapp.btsheman.repl.co/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>  
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">Blog App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Spidy-hub/BLOGAPPPROJ'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://pear-worried-skunk.cyclic.app/login'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">Crypto App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Spidy-hub/CryptoApp'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://cryptoapp-heman.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              
+            </div>
+            <h2 class="experience-sub-title project-title">Weather App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Spidy-hub/WeatherApp'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://spidy-hub.github.io/WeatherApp/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>   
+    </section>
+    <!-- Contact -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://media.istockphoto.com/id/876294690/vector/mobile-phone-circle-icon-black-round-minimalist-icon-isolated-on-white-background.jpg?s=170667a&w=0&k=20&c=Bhy-lWpvqx73QTMIXO56tFqkDj-XIiMN9Sy_H2yF1NM="
+            alt="Phone icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a>+91 9172137731</a></p>
+        </div> 
+        <div class="contact-info-container">
+          <img
+            src="https://media.istockphoto.com/id/875289404/vector/mail-icon-black-round-icon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=xVAbycrjEWua1jzCnFpz73mSVzbJd2SSv07bfKxrfbE="
+            alt="Phone icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:hemankoli1409@gmail.com">hemankoli1409@gmail.com</a></p>
+        </div> 
+        <div class="contact-info-container">
+          <img
+            src="data:image/png;base64,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"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Copyright &#169; 2023 Hemant Koli. All Rights Reserved.</p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+  </body>
+</html>                     
