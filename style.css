@@ -36,15 +36,17 @@ nav {
 }
 
 .nav-links {
-  gap: 2rem;
+  gap: 3rem;
   list-style: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .nav-links a {
   text-decoration: none;
   text-decoration-color: white;
-  color: rgb(0, 0, 0);
+  color: rgb(171, 60, 231);
 
 }
 
@@ -178,14 +180,12 @@ section {
   height: 80vh;
 }
 
-.section__pic-container {
+.section__pic-container-about {
   display: flex;
   height: 400px;
   justify-content: center;
   width: 400px;
   margin: auto 0px;
-  border-radius: 50%; 
-  background-color: #9e90ec; 
   overflow: hidden;
 }
 
